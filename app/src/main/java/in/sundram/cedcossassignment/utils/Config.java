@@ -1,4 +1,4 @@
-package in.sundram.cedcossassignment;
+package in.sundram.cedcossassignment.utils;
 
 public class Config {
     public static String getSearchURL(String movieName) {

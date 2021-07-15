@@ -1,4 +1,4 @@
-package in.sundram.cedcossassignment;
+package in.sundram.cedcossassignment.utils;
 
 import android.content.Context;
 import android.util.Log;
@@ -13,6 +13,9 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import in.sundram.cedcossassignment.datamodel.MovieDataModel;
+import in.sundram.cedcossassignment.interfaces.GetObjectInterface;
 
 public class VolleyUtil {
     public static void volleyGetRequest(Context context, String movieName, GetObjectInterface getObjectInterface) {

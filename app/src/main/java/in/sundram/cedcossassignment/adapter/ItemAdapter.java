@@ -1,7 +1,6 @@
-package in.sundram.cedcossassignment;
+package in.sundram.cedcossassignment.adapter;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,9 +12,12 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
 
 import java.util.List;
+
+import in.sundram.cedcossassignment.utils.Constant;
+import in.sundram.cedcossassignment.datamodel.MovieDataModel;
+import in.sundram.cedcossassignment.R;
 
 public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
 

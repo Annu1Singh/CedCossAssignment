@@ -1,4 +1,4 @@
-package in.sundram.cedcossassignment;
+package in.sundram.cedcossassignment.datamodel;
 
 public class MovieDataModel {
     private String id;

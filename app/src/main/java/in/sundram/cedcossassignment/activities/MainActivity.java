@@ -1,12 +1,10 @@
-package in.sundram.cedcossassignment;
+package in.sundram.cedcossassignment.activities;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -17,6 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import in.sundram.cedcossassignment.R;
+import in.sundram.cedcossassignment.adapter.ItemAdapter;
+import in.sundram.cedcossassignment.datamodel.MovieDataModel;
+import in.sundram.cedcossassignment.utils.VolleyUtil;
 
 public class MainActivity extends AppCompatActivity {
 
