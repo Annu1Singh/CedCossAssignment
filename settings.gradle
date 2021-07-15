@@ -1,0 +1,2 @@
+rootProject.name = "CedCossAssignment"
+include ':app'
